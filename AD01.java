@@ -2,26 +2,40 @@ package Atividades;
 
 public class AD01 {
     public static void main(String[] args) {
-        int[] vetor = {1, 5, 2, 3, 1, 3, 1};
-        int moda = calculaModa(vetor);
-        System.out.println("A moda do conjunto é " + moda + ".");
-    }
-
-    public static int calculaModa(int vetor[]) {
-        int maiorValor = 0, maiorContador = 0;
+        int[] vetor = {1, 5, 2, 3, 1, 3, 1, 3}, contagem = new int[vetor.length];
+        int contador, maiorValor;
 
         for (int i = 0; i < vetor.length; i++) {
-            int contador = 0;
-            for (int j = 0; j < vetor.length; j++) {
-                if (vetor[j] == vetor[i]) {
-                    contador++;
+            contador = 1;
+            if (vetor[i] == -1) {
+                contagem[i] = 0;
+            } else {
+                for (int j = i + 1; j < vetor.length; j++) {
+                    if (vetor[i] == vetor[j]) {
+                        contador++;
+                        vetor[j] = -1;
+                    }
                 }
-            }
-            if (contador > maiorContador) {
-                maiorContador = contador;
-                maiorValor = vetor[i];
+                contagem[i] = contador;
             }
         }
-        return maiorValor;
+        
+        maiorValor = contagem[0];
+        contador = 0;
+        
+        for (int i = 0; i < contagem.length; i++) {
+            if (contagem[i] > maiorValor) {
+                maiorValor = contagem[i];
+            } else if (contagem[i] == maiorValor) {
+                contador++;
+            }
+        }
+        
+        System.out.println("A(s) moda(s) do conjunto informado é(são): ");
+        for (int i = 0; i < contagem.length; i++) {
+            if (contagem[i] == maiorValor) {
+                System.out.println(vetor[i]);
+            }
+        }
     }
 }
