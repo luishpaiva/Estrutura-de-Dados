@@ -21,17 +21,14 @@ public class AD01 {
         }
         
         maiorValor = contagem[0];
-        contador = 0;
         
         for (int i = 0; i < contagem.length; i++) {
             if (contagem[i] > maiorValor) {
                 maiorValor = contagem[i];
-            } else if (contagem[i] == maiorValor) {
-                contador++;
             }
         }
         
-        System.out.println("A(s) moda(s) do conjunto informado é(são): ");
+        System.out.println("A(s) moda(s) do conjunto informado é(são):");
         for (int i = 0; i < contagem.length; i++) {
             if (contagem[i] == maiorValor) {
                 System.out.println(vetor[i]);
