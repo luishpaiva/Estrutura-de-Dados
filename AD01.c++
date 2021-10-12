@@ -5,7 +5,7 @@ main () {
     system("cls");
     SetConsoleOutputCP(65001);
 
-    int vetor[] = {1, 5, 2, 3, 1, 3, 1, 3};
+    int vetor[] = {1, 5, 2, 3, 1, 3, 1};
     int contador, maiorValor, tamanho = sizeof(vetor)/sizeof(vetor[0]);
     int contagem[tamanho];
 

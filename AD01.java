@@ -2,7 +2,7 @@ package Atividades;
 
 public class AD01 {
     public static void main(String[] args) {
-        int[] vetor = {1, 5, 2, 3, 1, 3, 1, 3}, contagem = new int[vetor.length];
+        int[] vetor = {1, 5, 2, 3, 1, 3, 1}, contagem = new int[vetor.length];
         int contador, maiorValor;
 
         for (int i = 0; i < vetor.length; i++) {
