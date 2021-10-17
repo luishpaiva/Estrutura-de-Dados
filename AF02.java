@@ -51,6 +51,5 @@ public class AF02 {
         
         System.out.println("Mostrando a pilha...");
         p.mostraPilha();
-        
     }
 }
