@@ -1,4 +1,4 @@
-package Atividades;
+package atividades;
 
 public class Fila {
     int fila[];
