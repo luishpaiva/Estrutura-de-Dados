@@ -1,4 +1,4 @@
-package Atividades;
+package atividades;
 
 public class AD01 {
     public static void main(String[] args) {
