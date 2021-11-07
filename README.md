@@ -40,14 +40,14 @@ Uma Lista é uma estrutura de dados dinâmica, onde o número de nós de uma lis
     void mostrar()
 </p>
 <p>
-<strong>Semana 5 - ATIVIDADE FORMATIVA: Recursividade</strong><br />
+<strong>Semana 5 - ATIVIDADE FORMATIVA: Estrutura de Dados em Java: Recursividade</strong><br />
 A sequência Fibonacci é uma sequência de números inteiros, começando normalmente por 0 e 1, na qual cada número seguinte, corresponde à soma dos dois anteriores, por exemplo:
     
     0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946...
     
 Para essa atividade você deverá implementar uma nova Classe em java que imprima a sequência Fibonacci recursivamente.
 </p>
-<strong>Semana 6 - ATIVIDADE FORMATIVA: Árvore Binária</strong><br />
+<strong>Semana 6 - ATIVIDADE FORMATIVA: Estrutura de Dados em Java: Árvore Binária</strong><br />
 Uma árvore binária é um conjunto finito de elementos que está vazio ou é particionado em três subconjuntos distintos, o primeiro é a informação e os demais são ponteiros para os nós filhos, à direita e à esquerda, respectivamente. Construa uma árvore binária em Java com os métodos de inserir um filho e mostrar os valores, tanto em pré-ordem, in-ordem e pós-ordem. Deverá ser inserido os seguintes valores na árvore, na mesma ordem: 20, 25, 10, 15, 30, 23, 24, 35.
 
     Pré-ordem: 20 10 15 25 23 24 30 35
