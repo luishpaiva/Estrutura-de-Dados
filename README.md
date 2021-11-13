@@ -47,7 +47,7 @@ A sequência Fibonacci é uma sequência de números inteiros, começando normal
     
 Para essa atividade você deverá implementar uma nova Classe em java que imprima a sequência Fibonacci recursivamente.
 </p>
-<strong>Semana 6 - ATIVIDADE FORMATIVA: Estrutura de Dados em Java: Árvore Binária</strong><br />
+<strong>Semana 6 - ATIVIDADE FORMATIVA: Estrutura de Dados em Java: Árvore Binária - Inserção e ordenação</strong><br />
 Uma árvore binária é um conjunto finito de elementos que está vazio ou é particionado em três subconjuntos distintos, o primeiro é a informação e os demais são ponteiros para os nós filhos, à direita e à esquerda, respectivamente. Construa uma árvore binária em Java com os métodos de inserir um filho e mostrar os valores, tanto em pré-ordem, in-ordem e pós-ordem. Deverá ser inserido os seguintes valores na árvore, na mesma ordem: 20, 25, 10, 15, 30, 23, 24, 35.
 
     Pré-ordem: 20 10 15 25 23 24 30 35
@@ -56,6 +56,6 @@ Uma árvore binária é um conjunto finito de elementos que está vazio ou é pa
 
 </p>
 </p>
-<strong>Semana 7 - ATIVIDADE FORMATIVA: Estrutura de dados em Java: Árvore Binária – remove e procura</strong><br />
+<strong>Semana 7 - ATIVIDADE FORMATIVA: Estrutura de Dados em Java: Árvore Binária – Remoção e procura</strong><br />
 Uma árvore binária é um conjunto finito de elementos que está vazio ou é particionado em três subconjuntos distintos, o primeiro é a informação e os demais são ponteiros para os nós filhos, à direita e à esquerda respectivamente. Construa uma árvore binária em Java com os métodos de remover um filho e procurar um determinado valor dentro da árvore.
 </p>
