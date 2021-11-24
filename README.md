@@ -59,3 +59,13 @@ Uma árvore binária é um conjunto finito de elementos que está vazio ou é pa
 <strong>Semana 7 - ATIVIDADE FORMATIVA: Estrutura de Dados em Java: Árvore Binária – Remoção e procura</strong><br />
 Uma árvore binária é um conjunto finito de elementos que está vazio ou é particionado em três subconjuntos distintos, o primeiro é a informação e os demais são ponteiros para os nós filhos, à direita e à esquerda respectivamente. Construa uma árvore binária em Java com os métodos de remover um filho e procurar um determinado valor dentro da árvore.
 </p>
+</p>
+<strong>Semana 8 - ATIVIDADE SOMATIVA: Estrutura de Dados em Java: Métodos de ordenação</strong><br />
+1 - O Selection Sort segue uma rotina bem simples e direta: encontrar o menor elemento e colocá-lo na primeira posição. Isso é feito com cada um dos elementos do vetor. Com base no que foi estudando na unidade da semana, elabore em grupo, o algorítimo do Selection Sort e faça a ordenação do vetor abaixo. Deverá comprimir a pasta src do projeto em .zip e realizar a entrega no Blackboard.
+
+    int[] vetor = {3,6,8,1,4,9,0};
+
+2- Bubble Sort é um algorítimo de ordenação por flutuação, de forma bem simples. Com base no que foi estudando na unidade da semana 5 e 8, elabore em grupo, o algorítimo do Bubble Sort recursivamente e faça a ordenação do vertor abaixo. Deverá comprimir a pasta src do projeto em .zip e realizar a entrega no Blackboard.
+
+    int[] vetor = {3,6,8,1,4,9,0};
+</p>
