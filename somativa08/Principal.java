@@ -9,7 +9,7 @@ public class Principal {
 		ss.selectionSortImprime(vetor);
 		
 		BubbleSort bs = new BubbleSort();
-		bs.bubbleSort(vetor);
+		bs.bubbleSort(vetor, vetor.length);
 		bs.bubbleSortImprime(vetor);
 	}
 	
